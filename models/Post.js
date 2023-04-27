@@ -1,10 +1,8 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-// create our Post model
 class Post extends Model {}
 
-// create fields/columns for Post model
 Post.init(
     {
       id: {
@@ -31,7 +29,7 @@ Post.init(
     },
     {
       sequelize,
-      freezeTableName: true,
+      freezeTableName: true, // Using the freezeTableName: true option to stop the auto-pluralization performed by Sequelize. This way, Sequelize will infer the table name to be equal to the model name, without any modifications.
       underscored: true,
       modelName: "post"
     }

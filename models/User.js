@@ -50,8 +50,8 @@ User.init(
       }
     },
     sequelize,
-    timestamps: false,
-    freezeTableName: true,
+    timestamps: false, // To prevent Sequelize from automatically adding createdAt and updatedAt fields to the model.
+    freezeTableName: true, // Using the freezeTableName: true option to stop the auto-pluralization performed by Sequelize. This way, Sequelize will infer the table name to be equal to the model name, without any modifications.
     underscored: true,
     modelName: "user",
   }

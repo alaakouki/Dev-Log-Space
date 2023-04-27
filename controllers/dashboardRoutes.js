@@ -68,7 +68,7 @@ router.get( "/edit/:id", withAuth, (req, res) => {
 
         // serialize the data
         const post = postDatabase.get ({ plain: true });
-        res.render("edit-post", {
+        res.render("editPost", {
             post, loggedIn: true
         });
     })
@@ -104,7 +104,7 @@ router.get("/create/", withAuth, (req, res) => {
     })
     .then (postDatabase => {
         const posts = postDatabase.map(post => post.get({plain: true}));
-        res.render("create-post", {posts, loggedIn: true});
+        res.render("createPost", {posts, loggedIn: true});
     })
     .catch (err => {
         console.log(err);

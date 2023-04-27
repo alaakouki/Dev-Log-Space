@@ -4,6 +4,7 @@ require("dotenv").config();
 // Making connection to our database
 let sequelize;
 
+// Setting up Sequelized for Heroku's JawsDB while using - .env - enviromental variables.
 if (process.env.JAWSDB_URL) {
 sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {

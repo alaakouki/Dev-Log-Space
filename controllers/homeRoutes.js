@@ -86,7 +86,7 @@ router.get("/post/:id", (req, res) => {
             // serialize the data
             const post = postDatabase.get({ plain: true });
 
-            res.render("single-post", {
+            res.render("singlePost", {
                 post,
                 loggedIn: req.session.loggedIn
             });

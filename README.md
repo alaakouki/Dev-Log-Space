@@ -12,9 +12,11 @@ npm i  - or - npm install, and then you will install:
 * connect-session-sequelize - to initialize sequelize with session store.
 * dotenv - loads environment variables from a .env file into process.env .Storing configuration in the environment separate from code.
 > **important**: You need to Add a .env file to the root of the project after you download it and type in it:
+```text
 DB_NAME = 'devblogs_db'
-DB_USER = 'root' => your user
-DB_PASSWORD = 'XXX' => your password
+DB_USER = 'root' // your user
+DB_PASSWORD = 'XXX' // your password
+```
 
 ## Contacts:
 Please feel free to check my GitHub page: [alaakouki](https://github.com/alaakouki?tab=repositories)

@@ -1,28 +1,28 @@
 [
     {
-        "title": "Taskmaster goes public!",
-        "post_content": "Taskinator is a task-tracker app that will allow you to organize your personal to-do list items by clicking and dragging them into categories like To Do, In Progress, and Completed.",
+        "title": "Meet Your New Favorite Teammate: Cody, the AI Coding Assistant",
+        "post_content": "Code faster with Cody, the only code AI that knows your entire codebase, like the pair programmer you always wanted.",
         "user_id": 3
     },
     {
-        "title": "Zoo Keepr reaches 1 million subscribers!",
-        "post_content": "The local zoo has received funding to build a new online catalog, and they've asked to create a web server for a front-end application they’re developing, called Zoo Keepr. This site’s data will be stored on the server. This will allow animal enthusiasts to access the data from different locations and browsers without needing to download it to their device",
+        "title": "Prettier 3.0: Now Powered by ES Modules",
+        "post_content": "The popular multi-language code formatter gets a big upgrade with a refactoring to ES modules making up the biggest change (though it can still be used as a library via CommonJS). One side effect is Prettier now supports ESM-based plugins and async parsers which means some necessary changes for Prettier plugin developers.",
         "user_id": 1
     },
     {
-        "title": "Work Day Scheduler tool now available!",
-        "post_content": "A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Use Moment.js library to work with date and time",
+        "title": "UnsuckJS: Comparing Lightweight JavaScript Options",
+        "post_content": "No build tools, no compilers, and no hassle. It’s a table of frontend JavaScript libraries on a simple page – that’s it! But it’s a handy table, letting you see the relative popularity, size, and latest versions of libraries as diverse as Preact, bau, htmx, Hyperapp, and Mithril.",
         "user_id": 2
 
     },
     {
-        "title": "Tech Blog has been released!",
-        "post_content": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site will be built from scratch and deployed to Heroku. The app will follow MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+        "title": "What's Next for JavaScript: New Features to Look Forward to",
+        "post_content": "A reassuring and high level look at just what goes into making JavaScript better over time, along with some of the new things about to appear or still making their way through the arduous TC39 process.",
         "user_id": 5
     },
     {
-        "title": "Just Tech News goes public!",
-        "post_content": "Just Tech News—a tech news website where users can post, upvote, and comment on links to news articles. Use Sequelize, an object-relational mapping (ORM) library, to simplify your MySQL queries, add password hashing so that users can create secure passwords, and connect your application to JawsDB, a MySQL add-on for Heroku",
+        "title": "A Look at TypeScript 5.2's New Keyword: using",
+        "post_content": "using brings something akin to Python’s with context management into TypeScript by providing a way to automatically run a Symbol.dispose function when an object leaves scope. You could use this to shut down database connections, close file handles, etc.",
         "user_id": 4
     }
 ]

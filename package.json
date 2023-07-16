@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A special blog site where developers can publish their blog posts and comment on other developers’ posts as well.",
   "main": "server.js",
+  "engines": {
+    "node": "18.14.2",
+    "npm":"9.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",

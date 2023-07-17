@@ -26,4 +26,8 @@ Or for more information or queries, please don't hesitate to send me email to: a
 
 ## Mock-up
 The following images shows Dev-Log-Space webpage appearance for Users on desktop screens:
-<!-- ![alt Dev-Log-Space webpage](./as) -->
+![alt Dev-Log-Space homepage](./images/homepage.png)
+![alt showing comments without login](./images/comments-1.png)
+![alt Dev-Log-Space login page](./images/login-page.png)
+![alt post page](./images/post.png)
+![alt displaying comments after logged in](./images/comments-2.png)
